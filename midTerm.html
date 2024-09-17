@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Cards Example</title>
+    <link rel="stylesheet" href="midTerm2.css">
+</head>
+<body>
+    <!-- Form input -->
+    <div class="formm">
+        <h1>Form</h1>
+        <div class="product">Image of product (1, 2, or 3) <input type="number" id="inputImg" min="1" max="3"></div>
+        <div class="product">Product Name <input type="text" id="inputName"></div>
+        <div class="product">ID <input type="text" id="inputID"></div>
+        <div class="product">New Price <input type="text" id="inputNPrice"></div>
+        <div class="product">Old Price <input type="text" id="inputOPrice"></div>
+        <div class="butt"><button onclick="sell()">Add</button></div>
+    </div>
+
+    <!-- Cards section -->
+
+    <div class="app">
+        <div class="card" id="card1">
+            <img class="card-img" src="https://img.kwcdn.com/product/fancy/40029898-f922-4379-9f4d-d918a8d0fde8.jpg?imageView2/2/w/500/q/60/format/webp" alt="Card image">
+            <div class="card-body">
+                <div class="info">
+                    <p class="card-title" id="name1"></p>
+                    <p class="card-id" id="idpro1"></p>
+                </div>
+                <div class="price">
+                    <p class="card-NP" id="newPrice1"></p>
+                    <p class="card-OP" id="oldPrice1"></p>
+                </div>
+                <button class="app_butt">Đặt mua</button>
+            </div>
+        </div>
+        <div class="card" id="card2">
+            <img class="card-img" src="https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/8ec9f430ebfcde7d78b52ebe2fab8f4b.jpg?imageView2/2/w/500/q/60/format/webp" alt="Card image">
+            <div class="card-body">
+                <div class="info">
+                    <p class="card-title" id="name2"></p>
+                    <p class="card-id" id="idpro2"></p>
+                </div>
+                <div class="price">
+                    <p class="card-NP" id="newPrice2"></p>
+                    <p class="card-OP" id="oldPrice2"></p>
+                </div>
+                <button class="app_butt">Đặt mua</button>
+            </div>
+        </div>
+        <div class="card" id="card3">
+            <img class="card-img" src="https://img.kwcdn.com/product/Fancyalgo/VirtualModelMatting/d2a2ad5efb0f0e71960cd00c721d62eb.jpg?imageView2/2/w/500/q/60/format/webp" alt="Card image">
+            <div class="card-body">
+                <div class="info">
+                    <p class="card-title" id="name3"></p>
+                    <p class="card-id" id="idpro3"></p>
+                </div>
+                <div class="price">
+                    <p class="card-NP" id="newPrice3"></p>
+                    <p class="card-OP" id="oldPrice3"></p>
+                </div>
+                <button class="app_butt">Đặt mua</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="midTerm2.js">
+    </script>
+</body>
+</html>
